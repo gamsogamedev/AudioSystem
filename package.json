@@ -1,0 +1,12 @@
+{
+  "name": "com.gamso.audiosystem",
+  "version": "1.0.0",
+  "displayName": "Audio System",
+  "description": "Sistema de audio otimizado utilizando object pooling",
+  "unity": "2021.3",
+  "author": {
+    "name": "Lucas Balieiro",
+    "url": "https://balieiro.itch.io/"
+  }
+}
+
