@@ -5,13 +5,13 @@
 * Crie um **Scriptable Object** de SoundData em `Create -> AudioSystem -> SoundData`
 
 <p align="center">
-  <img src="https://private-user-images.githubusercontent.com/97367138/573961896-2ecf406d-ebe9-4fa0-a92f-68cd7803c385.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU0MzYwNjksIm5iZiI6MTc3NTQzNTc2OSwicGF0aCI6Ii85NzM2NzEzOC81NzM5NjE4OTYtMmVjZjQwNmQtZWJlOS00ZmEwLWE5MmYtNjhjZDc4MDNjMzg1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDA2VDAwMzYwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThhZWMzN2FlYmI4NDljZjAwODk2NTlkMjFkNzBjNTRkZGFiOWEzMGQyODg0NDE1YmVlOGZmM2MxMWZkMjJiZDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WWVaMErxws2tppfkXDGyRyhyDwca67-P3jNNZjGXVKs" width="600">
+  <img width="800" alt="SO Path" src="https://github.com/user-attachments/assets/ee76a45e-52be-4375-90cc-92531d0aa06e" />
 </p>
 
 No inspetor, você terá essas informações sobre o ScriptableObject
 
 <p align="center">
-  <img src="https://private-user-images.githubusercontent.com/97367138/573961899-c3073967-6b32-49eb-bc4a-4b4d0f86844a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU0MzYwNjksIm5iZiI6MTc3NTQzNTc2OSwicGF0aCI6Ii85NzM2NzEzOC81NzM5NjE4OTktYzMwNzM5NjctNmIzMi00OWViLWJjNGEtNGI0ZDBmODY4NDRhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDA2VDAwMzYwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM0MWMzNDg1N2Q0OWFiZDAyNWU1NjY5M2MxYTc3YmQ2MzU4Y2JmYjA2ZjVmYmVjMGFjODk0NTI1MzVkZDgwOTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JpvIUVhFsyoWKOtOV9Llro8LqvDihN0bbBV0JTLAvEo" width="600">
+  <img width="500" alt="SO Info" src="https://github.com/user-attachments/assets/0be57206-b89a-4b1d-8d24-9f093a19afdd" />
 </p>
 
 1. `Audio Clip`: Arquivo de audio .wav
@@ -94,7 +94,7 @@ Em Playmode, você pode encontrar o prefab do SoundManager em DontDestroyOnLoad 
 ver os SoundEmitter sendo criados, ativados e desativados.
 
 <p align="center">
-  <img src="https://private-user-images.githubusercontent.com/97367138/573961846-51022d54-62a0-41eb-ba29-edc91a46245f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU0MzYwNjksIm5iZiI6MTc3NTQzNTc2OSwicGF0aCI6Ii85NzM2NzEzOC81NzM5NjE4NDYtNTEwMjJkNTQtNjJhMC00MWViLWJhMjktZWRjOTFhNDYyNDVmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDA2VDAwMzYwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRkNGI4NzlkNzk4Yzk5YTA1ZDQ3OTdiNDczMDU2YmVmYTFhMmUzN2Y1Yjg2OTk2MmRlMjJkYWI0OTZmNGI2NmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.SAV-Q3d1eFKcXS-0ZHS6u5qs-wKv_PhFa_osjn752OA" alt="Demonstração do ScriptableObject" width="600">
+  <img width="800" alt="SoundManager" src="https://github.com/user-attachments/assets/f6c28ca4-0e49-4494-a28a-fc5496b52e70" />
 </p>
 
 #### Dados no inspetor do SoundManager
@@ -108,7 +108,7 @@ ver os SoundEmitter sendo criados, ativados e desativados.
 * Também utiliza uma conversão de float para decibéis nos sliders, fazendo o som aumentar e diminuir linearmente.
 
 <p align="center">
-  <img src="https://private-user-images.githubusercontent.com/97367138/573961892-48964baf-d4a9-4a65-a031-299ca0c85ccd.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU0MzYwNjksIm5iZiI6MTc3NTQzNTc2OSwicGF0aCI6Ii85NzM2NzEzOC81NzM5NjE4OTItNDg5NjRiYWYtZDRhOS00YTY1LWEwMzEtMjk5Y2EwYzg1Y2NkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDA2VDAwMzYwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk4OWM5YTlmNGY2NDI4MmMxNTBlNmJiY2I5MmE4NjQ5ODY4N2ZjZTBmMGUxODY4MGFlZTNmMjQ5OTI5ODUwMmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.daIduI0f0NHK165GeVHIanSHCqAe_PfCUJMLuN-XCho" alt="Imagem do AudioMixer" width="600">
+  <img width="800" alt="SoundMixer" src="https://github.com/user-attachments/assets/304a4697-8d4a-47c4-abd5-8de276b73c70" />
 </p>
 
 Caso você não tenha a janela do AudioMixer no seu editor, você pode encontrá-la em `Window -> Audio -> AudioMixer` ou apertando `Ctrl + F8`.
